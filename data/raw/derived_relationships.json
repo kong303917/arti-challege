@@ -1,0 +1,1844 @@
+{
+  "as_of": "2026-09-16",
+  "collected_at": "2026-09-16",
+  "companies": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001045810",
+      "cik": "0001045810",
+      "is_public": true,
+      "role_in_ecosystem": "研究主体：加速计算平台（GPU/AI 芯片）设计商"
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "exchange": "NYSE",
+      "security_id": "SEC-CIK-0001046179",
+      "cik": "0001046179",
+      "is_public": true,
+      "role_in_ecosystem": "晶圆代工厂（NVIDIA 先进制程主要代工方）"
+    },
+    {
+      "ticker": "005930.KS",
+      "name": "Samsung Electronics Co., Ltd.",
+      "exchange": "KRX (KOSPI)",
+      "security_id": "KRX-005930",
+      "cik": null,
+      "is_public": true,
+      "role_in_ecosystem": "晶圆代工 + 存储供应商；亦为 SoC 竞争对手"
+    },
+    {
+      "ticker": "000660.KS",
+      "name": "SK hynix Inc.",
+      "exchange": "KRX (KOSPI)",
+      "security_id": "KRX-000660",
+      "cik": null,
+      "is_public": true,
+      "role_in_ecosystem": "HBM 高带宽存储供应商"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0000723125",
+      "cik": "0000723125",
+      "is_public": true,
+      "role_in_ecosystem": "存储供应商（HBM/DRAM）"
+    },
+    {
+      "ticker": "2317.TW",
+      "name": "Hon Hai Precision Industry Co., Ltd. (Foxconn)",
+      "exchange": "TWSE",
+      "security_id": "TWSE-2317",
+      "cik": null,
+      "is_public": true,
+      "role_in_ecosystem": "电子代工厂（NVIDIA 产品组装/测试/封装）"
+    },
+    {
+      "ticker": "3231.TW",
+      "name": "Wistron Corporation",
+      "exchange": "TWSE",
+      "security_id": "TWSE-3231",
+      "cik": null,
+      "is_public": true,
+      "role_in_ecosystem": "电子代工厂（组装/测试/封装）"
+    },
+    {
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "exchange": "NYSE",
+      "security_id": "SEC-CIK-0001408710",
+      "cik": "0001408710",
+      "is_public": true,
+      "role_in_ecosystem": "精密光学/电子代工厂"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0000002488",
+      "cik": "0000002488",
+      "is_public": true,
+      "role_in_ecosystem": "GPU/CPU/AI 加速器竞争对手"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0000050863",
+      "cik": "0000050863",
+      "is_public": true,
+      "role_in_ecosystem": "CPU/GPU/AI 加速器竞争对手"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001730168",
+      "cik": "0001730168",
+      "is_public": true,
+      "role_in_ecosystem": "网络芯片/定制 ASIC 竞争对手"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0000804328",
+      "cik": "0000804328",
+      "is_public": true,
+      "role_in_ecosystem": "SoC/Arm 生态竞争对手"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001835632",
+      "cik": "0001835632",
+      "is_public": true,
+      "role_in_ecosystem": "网络/DPU/定制芯片竞争对手"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0000858877",
+      "cik": "0000858877",
+      "is_public": true,
+      "role_in_ecosystem": "网络设备商：竞争（以太网交换）+ 合作（企业 AI 网络）"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
+      "exchange": "NYSE",
+      "security_id": "SEC-CIK-0001596532",
+      "cik": "0001596532",
+      "is_public": true,
+      "role_in_ecosystem": "数据中心网络竞争对手"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise Company",
+      "exchange": "NYSE",
+      "security_id": "SEC-CIK-0001645590",
+      "cik": "0001645590",
+      "is_public": true,
+      "role_in_ecosystem": "服务器厂商：竞争（网络）+ 合作（AI 服务器集成 NVIDIA 方案）"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0000789019",
+      "cik": "0000789019",
+      "is_public": true,
+      "role_in_ecosystem": "云厂商（Azure）：自研 AI 芯片竞争，同时为重要（间接）客户"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001018724",
+      "cik": "0001018724",
+      "is_public": true,
+      "role_in_ecosystem": "云厂商（AWS）：自研芯片竞争，同时为潜在大客户"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001652044",
+      "cik": "0001652044",
+      "is_public": true,
+      "role_in_ecosystem": "云厂商（GCP/TPU）：竞争，同时为潜在大客户"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001318605",
+      "cik": "0001318605",
+      "is_public": true,
+      "role_in_ecosystem": "自研 SoC 的车企（自动驾驶芯片自研）"
+    },
+    {
+      "ticker": "HUAWEI",
+      "name": "Huawei Technologies Co., Ltd.",
+      "exchange": null,
+      "security_id": null,
+      "cik": null,
+      "is_public": false,
+      "role_in_ecosystem": "非上市竞争对手（云/AI 芯片/Arm CPU）"
+    },
+    {
+      "ticker": "AMBA",
+      "name": "Ambarella, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001280263",
+      "cik": "0001280263",
+      "is_public": true,
+      "role_in_ecosystem": "边缘 AI SoC 竞争对手"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001633978",
+      "cik": "0001633978",
+      "is_public": true,
+      "role_in_ecosystem": "光模块/光器件竞争对手"
+    },
+    {
+      "ticker": "OPENAI",
+      "name": "OpenAI",
+      "exchange": null,
+      "security_id": null,
+      "cik": null,
+      "is_public": false,
+      "role_in_ecosystem": "AI 模型公司；NVIDIA 拟投资与深度合作对象"
+    },
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001769628",
+      "cik": "0001769628",
+      "is_public": true,
+      "role_in_ecosystem": "AI 云（GPU 云）运营商；NVIDIA 直接客户"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer, Inc.",
+      "exchange": "Nasdaq",
+      "security_id": "SEC-CIK-0001375365",
+      "cik": "0001375365",
+      "is_public": true,
+      "role_in_ecosystem": "AI 服务器厂商；NVIDIA 客户/合作伙伴"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "NVDA-TSM-supplier",
+      "subject": "NVDA",
+      "object": "TSM",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 89,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 89
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “While currently our supply chain is mainly concentrated in Asia, we are expanding into the U.S. and Latin America. We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semic”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 TSM：晶圆代工：NVIDIA GPU/加速器晶圆的主要制造方"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/d896993d20f.htm",
+          "publisher": "Taiwan Semiconductor Manufacturing Company Limited SEC filings",
+          "published_at": "2025-04-17",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Taiwan Semiconductor Manufacturing Company Limited filing (0001193125-25-083423, filed 2025-04-17) — “ompanies, system companies to integrated device manufacturers, including, but not limited to, Advanced Micro Devices, Inc., Amazon Web Services, Inc., Broadcom Inc., Intel Corporation, MediaTek Inc., NVIDIA Corporation, NXP Semiconductors N.V., Qualcomm Inc., Renesas Electronics Corporation and Sony Semiconductor Solutions Corporation. Our Semiconductor Facilities We currently operate one 150mm wafer fa”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：晶圆代工：NVIDIA GPU/加速器晶圆的主要制造方"
+        }
+      ],
+      "uncertainty_notes": "NVIDIA 10-K 未披露对 TSMC 的采购占比；先进制程供应高度集中属公司披露的重大风险。TSMC 自身 20-F 未点名 NVIDIA，交叉验证证据缺失（待补）。"
+    },
+    {
+      "id": "NVDA-005930.KS-supplier",
+      "subject": "NVDA",
+      "object": "005930.KS",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “ently our supply chain is mainly concentrated in Asia, we are expanding into the U.S. and Latin America. We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor pack”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 005930.KS：晶圆代工 + 存储（HBM）双角色供应商"
+        }
+      ],
+      "uncertainty_notes": "NVIDIA FY2026 10-K 同时将其列为供应商与竞争对手（多重角色）；Samsung 在韩国上市，无 SEC 年报，交叉验证依赖 NVIDIA 单方披露。"
+    },
+    {
+      "id": "NVDA-000660.KS-supplier",
+      "subject": "NVDA",
+      "object": "000660.KS",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging. We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Ind”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 000660.KS：HBM 高带宽存储主要供应商"
+        }
+      ],
+      "uncertainty_notes": "SK hynix 在韩国上市，无 SEC 年报，交叉验证依赖 NVIDIA 单方披露；10-K 将其拼写为 'SK Hynix Inc.'。"
+    },
+    {
+      "id": "NVDA-MU-supplier",
+      "subject": "NVDA",
+      "object": "MU",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “ndries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging. We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Lt”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 MU：存储（HBM/DRAM）供应商"
+        }
+      ],
+      "uncertainty_notes": "Micron 近年年报中未见对 NVIDIA 的点名披露（EDGAR 全文检索确认），关系证据目前仅来自 NVIDIA 单方 10-K。"
+    },
+    {
+      "id": "NVDA-2317.TW-supplier",
+      "subject": "NVDA",
+      "object": "2317.TW",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging. We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products. Competition The market for our products is intensely competitive and”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 2317.TW：电子代工厂：NVIDIA 产品组装/测试/封装（contract manufacturer）"
+        }
+      ],
+      "uncertainty_notes": "Hon Hai 在台湾上市，无 SEC 年报，交叉验证依赖 NVIDIA 单方披露。"
+    },
+    {
+      "id": "NVDA-3231.TW-supplier",
+      "subject": "NVDA",
+      "object": "3231.TW",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “hnology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging. We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products. Competition The market for our products is intensely competitive and is characterized by rapid technologica”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 3231.TW：电子代工厂：组装/测试/封装（contract manufacturer）"
+        }
+      ],
+      "uncertainty_notes": "Wistron 在台湾上市，无 SEC 年报，交叉验证依赖 NVIDIA 单方披露。"
+    },
+    {
+      "id": "NVDA-FN-supplier",
+      "subject": "NVDA",
+      "object": "FN",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 89,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 89
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “g. We utilize CoWoS technology for semiconductor packaging. We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products. Competition The market for our products is intensely competitive and is characterized by rapid technological change and evolving indu”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 FN：独立分包商/代工厂：组装/测试/封装"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000028/fn-20260626.htm",
+          "publisher": "Fabrinet SEC filings",
+          "published_at": "2026-08-18",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Fabrinet filing (0001408710-26-000028, filed 2026-08-18) — “l number of customers. During fiscal years 2026 and 2025, we had four and two customers, respectively, that each contributed 10% or more of our revenues. During fiscal year 2026, Cisco Systems, Inc., NVIDIA Corporation, Nokia Corporation and Amazon.com, Inc. contributed 19.9%, 16.3%, 10.7% and 10.5%, respectively, of our revenues. During fiscal year 2025, NVIDIA Corporation and Cisco Systems, Inc. contr”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：独立分包商/代工厂：组装/测试/封装"
+        }
+      ],
+      "uncertainty_notes": "Fabrinet 自身 10-K 亦提及 NVIDIA（见交叉验证证据），但其披露口径为业务合作而非点名供应关系。"
+    },
+    {
+      "id": "NVDA-AMD-peer",
+      "subject": "NVDA",
+      "object": "AMD",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 81,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 81
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “censors of hardware and software for discrete and integrated GPUs, custom chips and other accelerated computing solutions, including solutions offered for AI, such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co. Ltd., or Huawei, and Intel Corporation, or Intel; • large cloud services companies with internal teams designing hardware and software that incorporate accelerated or AI comp”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 AMD：AI 加速器/GPU/CPU 全面对手（MI 系列 vs. NVDA 数据中心 GPU）"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+          "publisher": "Advanced Micro Devices, Inc. SEC filings",
+          "published_at": "2026-02-04",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Advanced Micro Devices, Inc. filing (0000002488-26-000018, filed 2026-02-04) — “nce, and frequent product launches from both established and new competitors. Competition in Data Center Segment In the Data Center segment, we compete primarily against Intel Corporation (Intel) and Nvidia Corporation (Nvidia with our CPU, GPU DPU and AI NIC server products. In addition, we compete against Altera with our FPGA and adaptive SoC server products. A variety of smaller fabless silicon compa”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：AI 加速器/GPU/CPU 全面对手（MI 系列 vs. NVDA 数据中心 GPU）"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-INTC-peer",
+      "subject": "NVDA",
+      "object": "INTC",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 81,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 81
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “integrated GPUs, custom chips and other accelerated computing solutions, including solutions offered for AI, such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co. Ltd., or Huawei, and Intel Corporation, or Intel; • large cloud services companies with internal teams designing hardware and software that incorporate accelerated or AI computing functionality as part of their internal soluti”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 INTC：CPU/GPU/AI 加速器竞争对手"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+          "publisher": "Intel Corporation SEC filings",
+          "published_at": "2026-01-23",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Intel Corporation filing (0000050863-26-000011, filed 2026-01-23) — “named Panther Lake, which is designed to combine improved power efficiency and performance to support next-generation AI-enabled workloads at the edge. We also announced a strategic partnership with NVIDIA to co-develop custom client and data center products combining our x86 CPU technologies with NVIDIA's AI and accelerated computing capabilities. The collaboration is intended to jointly develop multi”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：CPU/GPU/AI 加速器竞争对手"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-AVGO-peer",
+      "subject": "NVDA",
+      "object": "AVGO",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 81,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 81
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “wei, and Microsoft; • suppliers of hardware and software for SoC products that are used in servers or embedded into automobiles, autonomous machines, and gaming devices, such as Ambarella, Inc., AMD, Broadcom, Intel, Qualcomm Incorporated, Renesas Electronics Corporation, and Samsung, or companies with internal teams designing SoC products for their own products and services, such as Tesla, Inc.; and • ne”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 AVGO：网络交换芯片/定制 ASIC（含云厂商自研加速器代工设计）竞争对手"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
+          "publisher": "Broadcom Inc. SEC filings",
+          "published_at": "2024-12-20",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Broadcom Inc. filing (0001730168-24-000139, filed 2024-12-20) — “ACOM Technology Solutions Holdings, Inc., Marvell Technology, Inc., MaxLinear, Inc., MediaTek Inc., Microchip Technology Incorporated, Mitsubishi Electric Corporation, Murata Manufacturing Co., Ltd., NVIDIA Corporation, NXP Semiconductors N.V., ON Semiconductor Corporation, OSRAM Licht AG, Qorvo, Inc., Qualcomm Inc., Realtek Semiconductor Corp., Renesas Electronics Corporation, Skyworks Solutions, Inc.,”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：网络交换芯片/定制 ASIC（含云厂商自研加速器代工设计）竞争对手"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-QCOM-peer",
+      "subject": "NVDA",
+      "object": "QCOM",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 81,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 81
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “t; • suppliers of hardware and software for SoC products that are used in servers or embedded into automobiles, autonomous machines, and gaming devices, such as Ambarella, Inc., AMD, Broadcom, Intel, Qualcomm Incorporated, Renesas Electronics Corporation, and Samsung, or companies with internal teams designing SoC products for their own products and services, such as Tesla, Inc.; and • networking products”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 QCOM：SoC/Arm 生态竞争对手（汽车/边缘/终端 AI）"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
+          "publisher": "QUALCOMM Incorporated SEC filings",
+          "published_at": "2025-11-05",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "QUALCOMM Incorporated filing (0000804328-25-000085, filed 2025-11-05) — “it products and/or software are generally competitors or potential competitors. Examples (some of which are strategic partners of ours in other areas) include Broadcom, HiSilicon, MediaTek, Mobileye, Nvidia, NXP Semiconductors, Qorvo, Samsung, Skyworks, Texas Instruments and UNISOC. Some of these current and potential competitors may have advantages over us that include, among others: motivation by our”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：SoC/Arm 生态竞争对手（汽车/边缘/终端 AI）"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-MRVL-peer",
+      "subject": "NVDA",
+      "object": "MRVL",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 81,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 81
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “s), and cable solutions (including optical modules) include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company, Huawei, Intel, Lumentum Holdings Inc., and Marvell Technology, Inc, as well as internal teams of system vendors and large cloud services companies. Patents and Proprietary Rights We rely primarily on a combination of patents, trademarks, trade secret”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 MRVL：网络/互连/DPU 及定制芯片竞争对手"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+          "publisher": "Marvell Technology, Inc. SEC filings",
+          "published_at": "2026-03-11",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Marvell Technology, Inc. filing (0001835632-26-000011, filed 2026-03-11) — “Ltd, Intel Corporation, Global Unichip Corporation (“GUC”), Lightmatter, Inc. (“Lightmatter”), MACOM Technology Solutions Holdings, Inc., MediaTek Inc., Microchip Technology Inc., Montage Technology, Nvidia Corporation, NXP Semiconductors N.V., Phison Electronics Corporation, Qualcomm Incorporated (“Qualcomm”), Rambus, Inc., Ranovus Inc. (“Ranovus”), Realtek Semiconductor Corporation, Semtech Corporatio”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：网络/互连/DPU 及定制芯片竞争对手"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-ANET-peer",
+      "subject": "NVDA",
+      "object": "ANET",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 81,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 81
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “n products and services, such as Tesla, Inc.; and • networking products consisting of switches, network adapters (including DPUs), and cable solutions (including optical modules) include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company, Huawei, Intel, Lumentum Holdings Inc., and Marvell Technology, Inc, as well as internal teams of system vendors and large”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 ANET：数据中心以太网网络竞争对手（_vs. NVIDIA Spectrum/NVLink 生态）"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
+          "publisher": "Arista Networks, Inc. SEC filings",
+          "published_at": "2026-02-17",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Arista Networks, Inc. filing (0001596532-26-000013, filed 2026-02-17) — “een dominated by Cisco, with competition also coming from other large network equipment and system vendors, including Dell/EMC, Extreme Networks, Hewlett Packard Enterprise, Huawei, Juniper Networks, Nvidia, and white box networking vendors that utilize open-source operating systems. Most of our competitors and some strategic alliance partners have made acquisitions and/or have entered into or extended”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：数据中心以太网网络竞争对手（_vs. NVIDIA Spectrum/NVLink 生态）"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-TSLA-peer",
+      "subject": "NVDA",
+      "object": "TSLA",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 75,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 75
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “, Inc., AMD, Broadcom, Intel, Qualcomm Incorporated, Renesas Electronics Corporation, and Samsung, or companies with internal teams designing SoC products for their own products and services, such as Tesla, Inc.; and • networking products consisting of switches, network adapters (including DPUs), and cable solutions (including optical modules) include such as AMD, Arista Networks, Broadcom, Cisco Syste”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 TSLA：自研 SoC（自动驾驶芯片）的整车厂，属 NVIDIA SoC 竞争类别"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-HUAWEI-peer",
+      "subject": "NVDA",
+      "object": "HUAWEI",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 75,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 75
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “rs of hardware and software for discrete and integrated GPUs, custom chips and other accelerated computing solutions, including solutions offered for AI, such as Advanced Micro Devices, Inc., or AMD, Huawei Technologies Co. Ltd., or Huawei, and Intel Corporation, or Intel; • large cloud services companies with internal teams designing hardware and software that incorporate accelerated or AI computing fu”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 HUAWEI：非上市竞争对手（云/AI 芯片/Arm CPU 多领域）"
+        }
+      ],
+      "uncertainty_notes": "Huawei 非上市、无公开证券标识与 SEC 文件，无法交叉验证。"
+    },
+    {
+      "id": "NVDA-AMBA-peer",
+      "subject": "NVDA",
+      "object": "AMBA",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 75,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 75
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “s, such as Amazon, Huawei, and Microsoft; • suppliers of hardware and software for SoC products that are used in servers or embedded into automobiles, autonomous machines, and gaming devices, such as Ambarella, Inc., AMD, Broadcom, Intel, Qualcomm Incorporated, Renesas Electronics Corporation, and Samsung, or companies with internal teams designing SoC products for their own products and services, such as”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 AMBA：边缘 AI/视觉 SoC 竞争对手"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-LITE-peer",
+      "subject": "NVDA",
+      "object": "LITE",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 75,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 75
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “work adapters (including DPUs), and cable solutions (including optical modules) include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company, Huawei, Intel, Lumentum Holdings Inc., and Marvell Technology, Inc, as well as internal teams of system vendors and large cloud services companies. Patents and Proprietary Rights We rely primarily on a combination of patent”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 LITE：光模块/光器件竞争对手（AI 数据中心互连）"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-MSFT-peer",
+      "subject": "NVDA",
+      "object": "MSFT",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 75,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 75
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “re that incorporate accelerated or AI computing functionality as part of their internal solutions or platforms, such as Alibaba Group, Alphabet Inc., Amazon, Inc., or Amazon, Baidu, Inc., Huawei, and Microsoft Corporation, or Microsoft; • suppliers of Arm-based CPUs and companies that incorporate hardware and software for CPUs as part of their internal solutions or platforms, such as Amazon, Huawei, and Mi”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 MSFT：云厂商（Azure）：自研 AI 加速芯片（Maia）的竞争对手；同时是 NVIDIA 生态重要间接客户"
+        }
+      ],
+      "uncertainty_notes": "NVIDIA FY2026 10-K 披露前两大直接客户合计占收入 36%（22%+14%）但未点名，大型云厂商/系统集成商可能同时是竞争对手与客户"
+    },
+    {
+      "id": "NVDA-AMZN-peer",
+      "subject": "NVDA",
+      "object": "AMZN",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 75,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 75
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “with internal teams designing hardware and software that incorporate accelerated or AI computing functionality as part of their internal solutions or platforms, such as Alibaba Group, Alphabet Inc., Amazon, Inc., or Amazon, Baidu, Inc., Huawei, and Microsoft Corporation, or Microsoft; • suppliers of Arm-based CPUs and companies that incorporate hardware and software for CPUs as part of their internal s”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 AMZN：云厂商（AWS）：自研 Trainium/Inferentia 芯片竞争对手；同时是 NVIDIA 生态潜在大客户"
+        }
+      ],
+      "uncertainty_notes": "NVIDIA FY2026 10-K 披露前两大直接客户合计占收入 36%（22%+14%）但未点名，大型云厂商/系统集成商可能同时是竞争对手与客户"
+    },
+    {
+      "id": "NVDA-GOOGL-peer",
+      "subject": "NVDA",
+      "object": "GOOGL",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 75,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.6,
+          "weight": 0.2,
+          "contribution": 0.12,
+          "explanation": "同业关系，按同业档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 75
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “vices companies with internal teams designing hardware and software that incorporate accelerated or AI computing functionality as part of their internal solutions or platforms, such as Alibaba Group, Alphabet Inc., Amazon, Inc., or Amazon, Baidu, Inc., Huawei, and Microsoft Corporation, or Microsoft; • suppliers of Arm-based CPUs and companies that incorporate hardware and software for CPUs as part of the”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 GOOGL：云厂商（GCP/TPU）：自研 TPU 的竞争对手；同时是 NVIDIA 生态潜在大客户"
+        }
+      ],
+      "uncertainty_notes": "NVIDIA FY2026 10-K 披露前两大直接客户合计占收入 36%（22%+14%）但未点名，大型云厂商/系统集成商可能同时是竞争对手与客户"
+    },
+    {
+      "id": "NVDA-CSCO-partner",
+      "subject": "NVDA",
+      "object": "CSCO",
+      "relationship_type": "partner",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 89,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 89
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “ch as Tesla, Inc.; and • networking products consisting of switches, network adapters (including DPUs), and cable solutions (including optical modules) include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company, Huawei, Intel, Lumentum Holdings Inc., and Marvell Technology, Inc, as well as internal teams of system vendors and large cloud services companies.”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 CSCO：企业 AI 网络（Cisco Nexus/UCS 集成 NVIDIA GPU/BlueField）合作伙伴；同时在以太网交换市场竞争"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+          "publisher": "Cisco Systems, Inc. SEC filings",
+          "published_at": "2026-09-02",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Cisco Systems, Inc. filing (0000858877-26-000132, filed 2026-09-02) — “rike Holdings, Inc.; Datadog Inc.; Dell Technologies Inc.; Dynatrace Inc.; Fortinet, Inc.; Hewlett-Packard Enterprise Company; Huawei Technologies Co., Ltd.; Microsoft Corporation; Nokia Corporation; Nvidia Corporation; Palo Alto Networks, Inc.; RingCentral, Inc.; Zoom Video Communications, Inc.; and Zscaler, Inc.; among others. Some of our competitors compete across many of our product lines, while oth”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：企业 AI 网络（Cisco Nexus/UCS 集成 NVIDIA GPU/BlueField）合作伙伴；同时在以太网交换市场竞争"
+        }
+      ],
+      "uncertainty_notes": "竞争与合作并存：NVIDIA 10-K 将 Cisco 列入网络产品竞争对手，Cisco 年报亦披露与 NVIDIA 的合作。"
+    },
+    {
+      "id": "NVDA-HPE-partner",
+      "subject": "NVDA",
+      "object": "HPE",
+      "relationship_type": "partner",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 89,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "独立信源（按披露主体去重）共 2 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 89
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “d • networking products consisting of switches, network adapters (including DPUs), and cable solutions (including optical modules) include such as AMD, Arista Networks, Broadcom, Cisco Systems, Inc., Hewlett Packard Enterprise Company, Huawei, Intel, Lumentum Holdings Inc., and Marvell Technology, Inc, as well as internal teams of system vendors and large cloud services companies. Patents and Proprietary Rights”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 HPE：AI 服务器/私有云（HPE 与 NVIDIA 联合方案）合作伙伴；同时在网络市场竞争"
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+          "publisher": "Hewlett Packard Enterprise Company SEC filings",
+          "published_at": "2025-12-18",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Hewlett Packard Enterprise Company filing (0001645590-25-000130, filed 2025-12-18) — “roducts. In some instances, our single-source suppliers (e.g., Intel and AMD as suppliers of certain x86 processors Broadcom and others for industry standard Application-Specific Standard Product, or NVIDIA for Graphics Processing Units) are also the single-source suppliers for the entire market; disruptions with these suppliers would result in industry-wide dislocations and therefore would not dispropo”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：AI 服务器/私有云（HPE 与 NVIDIA 联合方案）合作伙伴；同时在网络市场竞争"
+        }
+      ],
+      "uncertainty_notes": "竞争与合作并存：NVIDIA 10-K 将 HPE 列入网络产品竞争对手。"
+    },
+    {
+      "id": "NVDA-OPENAI-investor_or_investee",
+      "subject": "NVDA",
+      "object": "OPENAI",
+      "relationship_type": "investor_or_investee",
+      "direction": "nvidia_to_object",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 77,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.6 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "投资关系，按投资档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 77
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K (FY ending 2026-01-25, filed 2026-02-25) — “any of the companies in which we invest are not successful, we could recognize an impairment and/or lose all or part of our investment. We are finalizing an investment and partnership agreement with OpenAI. There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed. Our investment portfolio contains industry sector concentra”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "NVDA 10-K 点名 OPENAI：NVIDIA 拟对 OpenAI 进行投资并建立合作（AI 基础设施生态）"
+        }
+      ],
+      "uncertainty_notes": "NVIDIA FY2026 10-K 明确披露'正在敲定(finalizing)与 OpenAI 的投资与合作协议'，但同时声明交易可能无法达成——截至研究截点协议尚未最终签署。"
+    },
+    {
+      "id": "NVDA-CRWV-customer",
+      "subject": "NVDA",
+      "object": "CRWV",
+      "relationship_type": "customer",
+      "direction": "nvidia_to_object",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.5 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "publisher": "CoreWeave, Inc. SEC filings",
+          "published_at": "2026-03-02",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "CoreWeave, Inc. filing (0001769628-26-000104, filed 2026-03-02) — “le improving efficiency and lowering total cost of ownership. Our track record and ability to 6 Table of Contents deploy the industry's most advanced hardware and architectures first—including NVIDIA GB200 and GB300 NVL72 systems for mission-critical AI—gives our customers a measurable edge in performance, efficiency, and scale. CoreWeave clusters also use cutting edge CPUs, including AMD and Intel chi”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：GPU 云运营商：CoreWeave 部署 NVIDIA GB200/GB300 NVL72 等系统，为 NVIDIA GPU 核心直接客户"
+        }
+      ],
+      "uncertainty_notes": "关系方向由 CoreWeave 披露口径确认（其业务大规模部署 NVIDIA 硬件）；NVIDIA 10-K 未点名该客户；CoreWeave 10-K 未在对 NVIDIA 义务中披露具体采购金额（定性口径）。"
+    },
+    {
+      "id": "NVDA-CRWV-investor_or_investee",
+      "subject": "NVDA",
+      "object": "CRWV",
+      "relationship_type": "investor_or_investee",
+      "direction": "nvidia_to_object",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "quantified",
+      "confidence_score": 82,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.5 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 0.7,
+          "weight": 0.2,
+          "contribution": 0.14,
+          "explanation": "投资关系，按投资档计"
+        },
+        "quantifiability": {
+          "value": 1.0,
+          "weight": 0.1,
+          "contribution": 0.1,
+          "explanation": "披露了金额或占比等量化数据"
+        },
+        "total": 82
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "publisher": "CoreWeave, Inc. SEC filings",
+          "published_at": "2026-03-02",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "CoreWeave, Inc. filing (0001769628-26-000104, filed 2026-03-02) — “Company's long-lived assets were located in the United States, with no other single country accounting for more than 10% of these assets. 131 Table of Contents 16. Subsequent Events In January 2026, NVIDIA Corporation invested $ 2 billion in the Company's Class A common stock at a purchase price of $ 87.20 per share. In January 2026, the Company entered into additional financing agreements with an OEM. The financing agreem”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：NVIDIA 于 2026 年 1 月以 $87.20/股 投资 20 亿美元入股 CoreWeave（A 类普通股）"
+        }
+      ],
+      "uncertainty_notes": "金额与价格来自 CoreWeave 10-K 后续事项(Subsequent Events)披露（2026-01）；系少数股权投资，非收购。"
+    },
+    {
+      "id": "NVDA-CRWV-partner",
+      "subject": "NVDA",
+      "object": "CRWV",
+      "relationship_type": "partner",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.5 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "publisher": "CoreWeave, Inc. SEC filings",
+          "published_at": "2026-03-02",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "CoreWeave, Inc. filing (0001769628-26-000104, filed 2026-03-02) — “ties in connection with the development, operation, and enhancements to our platform and the provision of our solutions and services. For example, in January 2026, we announced that we entered into a collaboration framework with NVIDIA Corporation to expand our long-standing complementary relationship to advance AI adoption at global scale. Identifying strategic relationships with third parties, and negotiating and docu”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：2026 年 1 月 CoreWeave 与 NVIDIA 签署 collaboration framework，扩展长期互补合作以推进全球 AI 应用"
+        }
+      ],
+      "uncertainty_notes": "协议细节（金额/期限）未在 10-K 中披露。"
+    },
+    {
+      "id": "NVDA-SMCI-customer",
+      "subject": "NVDA",
+      "object": "SMCI",
+      "relationship_type": "customer",
+      "direction": "nvidia_to_object",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "confidence_score": 83,
+      "score_breakdown": {
+        "credibility": {
+          "value": 1.0,
+          "weight": 0.3,
+          "contribution": 0.3,
+          "explanation": "全部证据来源分档中的最高档（来源分档：sec_filing）"
+        },
+        "independence": {
+          "value": 0.4,
+          "weight": 0.2,
+          "contribution": 0.08,
+          "explanation": "独立信源（按披露主体去重）共 1 个"
+        },
+        "timeliness": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "取最新有效证据的时效性：证据距今 0.0 年（≤1 年，时效性满分）"
+        },
+        "relation_strength": {
+          "value": 1.0,
+          "weight": 0.2,
+          "contribution": 0.2,
+          "explanation": "SEC 文件中点名的关系，按 10-K/SEC 点名档计"
+        },
+        "quantifiability": {
+          "value": 0.5,
+          "weight": 0.1,
+          "contribution": 0.05,
+          "explanation": "仅有定性描述"
+        },
+        "total": 83
+      },
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+          "publisher": "Super Micro Computer, Inc. SEC filings",
+          "published_at": "2026-08-31",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "Super Micro Computer, Inc. filing (0001375365-26-000022, filed 2026-08-31) — “ended June 30, 2026 (“fiscal year 2026”): • We delivered a comprehensive portfolio of AI-focused solutions specifically designed to support the latest AI workloads, including products compatible with NVIDIA's Blackwell and Blackwell Ultra generation platforms, such as the NVIDIA GB300 NVL72, GB200 NVL72, and HGX B300 and B200 systems, in air-cooled and liquid-cooled configurations; SMCI | 2026 Form 10-K”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "对方披露交叉验证：AI 服务器厂商：基于 NVIDIA GPU 构建服务器系统的直接客户/合作伙伴"
+        }
+      ],
+      "uncertainty_notes": "关系方向由 Super Micro 披露口径确认（其产品深度依赖 NVIDIA GPU 供应）；NVIDIA 10-K 未点名该客户。"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "companies": [
+    {"ticker": "NVDA", "name": "NVIDIA Corporation", "exchange": "Nasdaq", "security_id": "SEC-CIK-0001045810", "cik": "0001045810", "is_public": true, "role_in_ecosystem": "研究主体：加速计算平台设计商"},
+    {"ticker": "TSM", "name": "Taiwan Semiconductor Manufacturing Company Limited", "exchange": "NYSE", "security_id": "SEC-CIK-0001046179", "cik": "0001046179", "is_public": true, "role_in_ecosystem": "晶圆代工厂"},
+    {"ticker": "AMD", "name": "Advanced Micro Devices, Inc.", "exchange": "Nasdaq", "security_id": "SEC-CIK-0000002488", "cik": "0000002488", "is_public": true, "role_in_ecosystem": "竞争对手"},
+    {"ticker": "CRWV", "name": "CoreWeave, Inc.", "exchange": "Nasdaq", "security_id": "SEC-CIK-0001769628", "cik": "0001769628", "is_public": true, "role_in_ecosystem": "GPU 云运营商"},
+    {"ticker": "OPENAI", "name": "OpenAI", "exchange": null, "security_id": null, "cik": null, "is_public": false, "role_in_ecosystem": "AI 模型公司"},
+    {"ticker": "MSFT", "name": "Microsoft Corporation", "exchange": "Nasdaq", "security_id": "SEC-CIK-0000789019", "cik": "0000789019", "is_public": true, "role_in_ecosystem": "云厂商"},
+    {"ticker": "AMZN", "name": "Amazon.com, Inc.", "exchange": "Nasdaq", "security_id": "SEC-CIK-0001018724", "cik": "0001018724", "is_public": true, "role_in_ecosystem": "云厂商"},
+    {"ticker": "XYZW", "name": "XYZ Widget Co. (虚构测试公司)", "exchange": null, "security_id": null, "cik": null, "is_public": false, "role_in_ecosystem": "测试用虚构实体"},
+    {"ticker": "ACME", "name": "ACME Systems (虚构测试公司)", "exchange": null, "security_id": null, "cik": null, "is_public": false, "role_in_ecosystem": "测试用虚构实体（无证据边界样本）"}
+  ],
+  "relationships": [
+    {
+      "id": "NVDA-TSM-supplier",
+      "subject": "NVDA",
+      "object": "TSM",
+      "relationship_type": "supplier",
+      "direction": "object_to_nvidia",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K FY2026 — “We utilize foundries, such as TSMC, and Samsung, to produce our semiconductor wafers.”",
+          "access_license": "public (SEC EDGAR)",
+          "note": "10-K 点名"
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-AMD-peer",
+      "subject": "NVDA",
+      "object": "AMD",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K FY2026 Competition — “...such as Advanced Micro Devices, Inc., or AMD...”",
+          "access_license": "public (SEC EDGAR)",
+          "note": null
+        },
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20241227.htm",
+          "publisher": "Advanced Micro Devices, Inc. SEC filings",
+          "published_at": "2026-02-04",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "AMD 10-K — 竞争对手列表包含 NVIDIA",
+          "access_license": "public (SEC EDGAR)",
+          "note": null
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-CRWV-customer",
+      "subject": "NVDA",
+      "object": "CRWV",
+      "relationship_type": "customer",
+      "direction": "nvidia_to_object",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "publisher": "CoreWeave, Inc. SEC filings",
+          "published_at": "2026-03-02",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "CoreWeave 10-K — 部署 NVIDIA GB200/GB300 NVL72 系统",
+          "access_license": "public (SEC EDGAR)",
+          "note": null
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-OPENAI-investor_or_investee",
+      "subject": "NVDA",
+      "object": "OPENAI",
+      "relationship_type": "investor_or_investee",
+      "direction": "nvidia_to_object",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "NVIDIA Corporation SEC filings",
+          "published_at": "2026-02-25",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "NVIDIA 10-K FY2026 — “We are finalizing an investment and partnership agreement with OpenAI.”",
+          "access_license": "public (SEC EDGAR)",
+          "note": null
+        }
+      ],
+      "uncertainty_notes": "协议尚未最终签署"
+    },
+    {
+      "id": "NVDA-XYZW-peer",
+      "subject": "NVDA",
+      "object": "XYZW",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "inference",
+      "as_of": "2026-09-16",
+      "quantification": "none",
+      "evidence": [
+        {
+          "source_url": "https://techblog.example.com/nvidia-xyzw-rivalry",
+          "publisher": "Example Tech Blog",
+          "published_at": "2022-05-10",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "博客文章（权威度低、时效久）",
+          "access_license": "public",
+          "note": null
+        }
+      ],
+      "uncertainty_notes": "低置信推断样本"
+    },
+    {
+      "id": "NVDA-ACME-partner",
+      "subject": "NVDA",
+      "object": "ACME",
+      "relationship_type": "partner",
+      "direction": "mutual",
+      "status": "unknown",
+      "as_of": "2026-09-16",
+      "quantification": "none",
+      "evidence": [],
+      "uncertainty_notes": "空证据边界样本：关系存在性未经验证"
+    },
+    {
+      "id": "NVDA-MSFT-peer",
+      "subject": "NVDA",
+      "object": "MSFT",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2026-09-16",
+      "quantification": "qualitative",
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000078901927000039/msft-20270630.htm",
+          "publisher": "Microsoft Corporation SEC filings",
+          "published_at": "2027-01-15",
+          "accessed_at": "2026-09-16",
+          "evidence_locator": "边界样本：证据发布日期晚于 as_of（未来证据）",
+          "access_license": "public (SEC EDGAR)",
+          "note": null
+        }
+      ],
+      "uncertainty_notes": null
+    },
+    {
+      "id": "NVDA-AMZN-peer",
+      "subject": "NVDA",
+      "object": "AMZN",
+      "relationship_type": "peer",
+      "direction": "mutual",
+      "status": "fact",
+      "as_of": "2025-06-30",
+      "quantification": "quantified",
+      "evidence": [
+        {
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000012/amzn-20241231.htm",
+          "publisher": "Amazon.com, Inc. SEC filings",
+          "published_at": "2025-02-07",
+          "accessed_at": "2025-06-30",
+          "evidence_locator": "边界样本：as_of 较早的关系记录（测试 as_of 过滤）",
+          "access_license": "public (SEC EDGAR)",
+          "note": null
+        }
+      ],
+      "uncertainty_notes": null
+    }
+  ]
+}
